@@ -1,0 +1,292 @@
+{
+ "felder": {
+  "einheit": "Platzentscheidungen (Heat-bath: Platzaktualisierungen = Schritte; direkt: n; Kopplung: 2 × Schritte der Paarkette)",
+  "t_mix": "t_mix(1/4) in Schritten; n <= 12: Maximum über alle Starts, n = 16: Start alle geraden Plätze; exakt (Matrixpotenzen bzw. Vektoriteration)",
+  "tau_teilchen": "Schritte je effektiv unabhängige Probe der Teilchenzahl, stationärer Start, exakt aus der Fundamentalmatrix",
+  "tau_gipfel": "Schritte je effektiv unabhängige Probe des Gipfelindikators I, stationärer Start, exakt aus der Fundamentalmatrix",
+  "kopplung_schritte": "erwartete Kosten eines Laufs, Rückschau 8, 16, 32, ..., exakt über die zusammengefasste Paarkette; null = nicht gerechnet",
+  "t_rel": "1 / (1 − zweitgrößter Eigenwert) der Heat-bath-Matrix, Torus 4×4"
+ },
+ "ring": [
+  {
+   "n": 8,
+   "lam": 1.0,
+   "zustaende": 47,
+   "paarketten_zustaende": 107,
+   "t_mix": 31,
+   "t_mix_start_gerade": 31,
+   "tau_teilchen": 10.179359748116955,
+   "tau_gipfel": 46.54256010396358,
+   "direkt": 8,
+   "kopplung_schritte": 142.62488846149122,
+   "kopplung_platz": 285.24977692298245
+  },
+  {
+   "n": 8,
+   "lam": 5.0,
+   "zustaende": 47,
+   "paarketten_zustaende": 107,
+   "t_mix": 153,
+   "t_mix_start_gerade": 153,
+   "tau_teilchen": 33.99210185613692,
+   "tau_gipfel": 318.19520926672476,
+   "direkt": 8,
+   "kopplung_schritte": 756.107124197596,
+   "kopplung_platz": 1512.214248395192
+  },
+  {
+   "n": 8,
+   "lam": 20.0,
+   "zustaende": 47,
+   "paarketten_zustaende": 107,
+   "t_mix": 1403,
+   "t_mix_start_gerade": 1403,
+   "tau_teilchen": 192.13595253867805,
+   "tau_gipfel": 3554.031232762171,
+   "direkt": 8,
+   "kopplung_schritte": 6408.595274454389,
+   "kopplung_platz": 12817.190548908779
+  },
+  {
+   "n": 8,
+   "lam": 100.0,
+   "zustaende": 47,
+   "paarketten_zustaende": 107,
+   "t_mix": 29147,
+   "t_mix_start_gerade": 29147,
+   "tau_teilchen": 1140.4108452350602,
+   "tau_gipfel": 81489.67677116158,
+   "direkt": 8,
+   "kopplung_schritte": 124355.38521140994,
+   "kopplung_platz": 248710.77042281989
+  },
+  {
+   "n": 12,
+   "lam": 1.0,
+   "zustaende": 322,
+   "paarketten_zustaende": 1526,
+   "t_mix": 54,
+   "t_mix_start_gerade": 54,
+   "tau_teilchen": 15.455437429239618,
+   "tau_gipfel": 66.83482665913648,
+   "direkt": 12,
+   "kopplung_schritte": 258.318628966656,
+   "kopplung_platz": 516.637257933312
+  },
+  {
+   "n": 12,
+   "lam": 5.0,
+   "zustaende": 322,
+   "paarketten_zustaende": 1526,
+   "t_mix": 267,
+   "t_mix_start_gerade": 267,
+   "tau_teilchen": 50.726505571087564,
+   "tau_gipfel": 450.8060203799815,
+   "direkt": 12,
+   "kopplung_schritte": 1371.3849986111456,
+   "kopplung_platz": 2742.7699972222913
+  },
+  {
+   "n": 12,
+   "lam": 20.0,
+   "zustaende": 322,
+   "paarketten_zustaende": 1526,
+   "t_mix": 2276,
+   "t_mix_start_gerade": 2276,
+   "tau_teilchen": 546.8835217126617,
+   "tau_gipfel": 4971.325939292409,
+   "direkt": 12,
+   "kopplung_schritte": 11126.837212403087,
+   "kopplung_platz": 22253.674424806173
+  },
+  {
+   "n": 12,
+   "lam": 100.0,
+   "zustaende": 322,
+   "paarketten_zustaende": 1526,
+   "t_mix": 44647,
+   "t_mix_start_gerade": 44647,
+   "tau_teilchen": 4724.413148902772,
+   "tau_gipfel": 118882.88301940958,
+   "direkt": 12,
+   "kopplung_schritte": 196787.32909913818,
+   "kopplung_platz": 393574.65819827636
+  },
+  {
+   "n": 16,
+   "lam": 1.0,
+   "zustaende": 2207,
+   "paarketten_zustaende": 27141,
+   "t_mix": 79,
+   "t_mix_start_gerade": 79,
+   "tau_teilchen": 20.91541648056305,
+   "tau_gipfel": 86.95149714965012,
+   "direkt": 16,
+   "kopplung_schritte": 386.8003704658629,
+   "kopplung_platz": 773.6007409317258
+  },
+  {
+   "n": 16,
+   "lam": 5.0,
+   "zustaende": 2207,
+   "paarketten_zustaende": 27141,
+   "t_mix": 402,
+   "t_mix_start_gerade": 402,
+   "tau_teilchen": 60.55730946681985,
+   "tau_gipfel": 584.4463592946353,
+   "direkt": 16,
+   "kopplung_schritte": 2073.003402633081,
+   "kopplung_platz": 4146.006805266162
+  },
+  {
+   "n": 16,
+   "lam": 20.0,
+   "zustaende": 2207,
+   "paarketten_zustaende": 27141,
+   "t_mix": 3304,
+   "t_mix_start_gerade": 3304,
+   "tau_teilchen": 872.847542777692,
+   "tau_gipfel": 6304.803637678295,
+   "direkt": 16,
+   "kopplung_schritte": null,
+   "kopplung_platz": null
+  },
+  {
+   "n": 16,
+   "lam": 100.0,
+   "zustaende": 2207,
+   "paarketten_zustaende": 27141,
+   "t_mix": 61220,
+   "t_mix_start_gerade": 61220,
+   "tau_teilchen": 10855.461988893709,
+   "tau_gipfel": 153504.28419353167,
+   "direkt": 16,
+   "kopplung_schritte": null,
+   "kopplung_platz": null
+  }
+ ],
+ "torus44": [
+  {
+   "lam": 1.0,
+   "zustaende": 743,
+   "tau_teilchen": 39.46843424019986,
+   "tau_gipfel": 277.38613431971567,
+   "t_rel": 155.66400126019448,
+   "direkt": 16
+  },
+  {
+   "lam": 2.0,
+   "zustaende": 743,
+   "tau_teilchen": 67.74937194899195,
+   "tau_gipfel": 1235.6631432648217,
+   "t_rel": 649.3759399191606,
+   "direkt": 16
+  },
+  {
+   "lam": 5.0,
+   "zustaende": 743,
+   "tau_teilchen": 82.1656476743067,
+   "tau_gipfel": 20531.771790302766,
+   "t_rel": 10318.776960036008,
+   "direkt": 16
+  },
+  {
+   "lam": 10.0,
+   "zustaende": 743,
+   "tau_teilchen": 66.05157203380078,
+   "tau_gipfel": 293580.49481346225,
+   "t_rel": 146857.33759378182,
+   "direkt": 16
+  },
+  {
+   "lam": 20.0,
+   "zustaende": 743,
+   "tau_teilchen": 49.82773981191129,
+   "tau_gipfel": 5783948.552471622,
+   "t_rel": 2892053.7845492717,
+   "direkt": 16
+  },
+  {
+   "lam": 50.0,
+   "zustaende": 743,
+   "tau_teilchen": 38.46574366442297,
+   "tau_gipfel": 403233809.75416374,
+   "t_rel": 201617002.30870628,
+   "direkt": 16
+  },
+  {
+   "lam": 100.0,
+   "zustaende": 743,
+   "tau_teilchen": 34.678618395415846,
+   "tau_gipfel": 11401880704.909573,
+   "t_rel": 5700950256.395305,
+   "direkt": 16
+  }
+ ],
+ "takt": [
+  {
+   "n": 12,
+   "lam": 0.5,
+   "t_mix_heatbath": 38,
+   "t_mix_metropolis": 25,
+   "verhaeltnis": 1.52,
+   "takt": 1.5
+  },
+  {
+   "n": 12,
+   "lam": 1.0,
+   "t_mix_heatbath": 54,
+   "t_mix_metropolis": 27,
+   "verhaeltnis": 2.0,
+   "takt": 2.0
+  },
+  {
+   "n": 12,
+   "lam": 2.0,
+   "t_mix_heatbath": 93,
+   "t_mix_metropolis": 62,
+   "verhaeltnis": 1.5,
+   "takt": 1.5
+  },
+  {
+   "n": 12,
+   "lam": 5.0,
+   "t_mix_heatbath": 267,
+   "t_mix_metropolis": 222,
+   "verhaeltnis": 1.2027027027027026,
+   "takt": 1.2
+  },
+  {
+   "n": 12,
+   "lam": 10.0,
+   "t_mix_heatbath": 727,
+   "t_mix_metropolis": 661,
+   "verhaeltnis": 1.0998487140695916,
+   "takt": 1.1
+  },
+  {
+   "n": 12,
+   "lam": 20.0,
+   "t_mix_heatbath": 2276,
+   "t_mix_metropolis": 2168,
+   "verhaeltnis": 1.0498154981549817,
+   "takt": 1.05
+  },
+  {
+   "n": 12,
+   "lam": 50.0,
+   "t_mix_heatbath": 11925,
+   "t_mix_metropolis": 11691,
+   "verhaeltnis": 1.0200153964588146,
+   "takt": 1.02
+  },
+  {
+   "n": 12,
+   "lam": 100.0,
+   "t_mix_heatbath": 44647,
+   "t_mix_metropolis": 44204,
+   "verhaeltnis": 1.0100217174916297,
+   "takt": 1.01
+  }
+ ]
+}

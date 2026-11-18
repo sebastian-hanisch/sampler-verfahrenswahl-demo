@@ -1,0 +1,80 @@
+{
+ "einheit": "Platzaktualisierungen je effektiv unabhängige Teilchenzahl-Probe (Heat-bath)",
+ "schaetzer": "ESS nach Vehtari u. a. (Geyer-Folge), τ = Ketten × Schritte / ESS",
+ "eichung_4x4": [
+  {
+   "lam": 1.0,
+   "ketten": 8,
+   "schritte": 100000,
+   "verworfen": 10000,
+   "zufalls_seed": 30001,
+   "tau_exakt": 39.46843424019986,
+   "tau_geschaetzt": 38.91037971942988,
+   "verhaeltnis": 0.9858607382959829
+  },
+  {
+   "lam": 2.0,
+   "ketten": 8,
+   "schritte": 100000,
+   "verworfen": 10000,
+   "zufalls_seed": 30002,
+   "tau_exakt": 67.74937194899195,
+   "tau_geschaetzt": 66.76504373643691,
+   "verhaeltnis": 0.9854710356090661
+  }
+ ],
+ "torus8x8": [
+  {
+   "lam": 1.0,
+   "ketten": 8,
+   "schritte": 200000,
+   "verworfen": 20000,
+   "zufalls_seeds": [
+    30003,
+    30005,
+    30007,
+    30009,
+    30011
+   ],
+   "taus": [
+    145.87284862296343,
+    137.1037764432198,
+    136.07138158869026,
+    143.6145366196664,
+    127.27145152671582
+   ],
+   "tau": 137.1037764432198,
+   "tau_min": 127.27145152671582,
+   "tau_max": 145.87284862296343,
+   "dichte_kette_mittel": 0.22688749131944444,
+   "dichte_exakt": 0.22700528408804793,
+   "direkt": 64
+  },
+  {
+   "lam": 5.0,
+   "ketten": 8,
+   "schritte": 200000,
+   "verworfen": 20000,
+   "zufalls_seeds": [
+    30004,
+    30006,
+    30008,
+    30010,
+    30012
+   ],
+   "taus": [
+    709.7977392717802,
+    1360.9467130680914,
+    648.1148382211425,
+    1263.0246207767727,
+    1303.1630380443821
+   ],
+   "tau": 1263.0246207767727,
+   "tau_min": 648.1148382211425,
+   "tau_max": 1360.9467130680914,
+   "dichte_kette_mittel": 0.4082930924479166,
+   "dichte_exakt": 0.407624941714827,
+   "direkt": 64
+  }
+ ]
+}
